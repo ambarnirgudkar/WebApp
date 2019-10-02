@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Per\\Ambar\\Projects\\WebApp\\WebApp\\WebApp\\WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Per\\Ambar\\Projects\\WebApp\\WebApp\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Per\\Ambar\\Projects\\WebApp\\WebApp\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "C:\\Per\\Ambar\\Projects\\WebApp\\WebApp\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\ambar\\.nuget\\packages\\",
+        "outputPath": "C:\\Per\\Ambar\\Projects\\WebApp\\WebApp\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ambar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.srv.symbotic.corp/feeds/Common": {},
+          "http://nuget.srv.symbotic.corp/nuget/CustomerConfigData": {},
+          "http://nuget.srv.symbotic.corp/nuget/DataServices": {},
+          "http://nuget.srv.symbotic.corp/nuget/MRC": {},
+          "http://nuget.srv.symbotic.corp/nuget/Official-Nuget/": {},
+          "http://nuget.srv.symbotic.corp/nuget/Symbotic-Developer": {},
+          "http://nuget.srv.symbotic.corp/nuget/SystemManager": {},
+          "http://nuget.srv.symbotic.corp/nuget/Third-Party": {},
+          "http://nuget.srv.symbotic.corp/nuget/common": {},
+          "http://nuget.srv.symbotic.corp/nuget/sre": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.repo.symbotic.corp/nuget/Common/": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
